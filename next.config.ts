@@ -1,7 +1,6 @@
-import type { NextConfig } from 'next';
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  // Remove any experimental.ppr setting if it exists
+}
 
-const nextConfig: NextConfig = {
-  /* config options here */
-};
-
-export default nextConfig;
+module.exports = nextConfig
